@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #030422;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    width: 436px;
+    height: 608px;
+    margin-top: 80px;
+    border-radius: 20px;
+    background: linear-gradient(
+        90.24deg, rgba(14, 23, 101, 0.85) 
+        0%, rgba(53, 14, 88, 0.85) 98.1%),
+        url(./assets/bg-rey.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.info{
+    width: 420px;
+}
+
+.title {
+    padding: 3rem 8.313rem 0 2.5rem;
+    /* border: 1px solid white; */
+}
+
+.title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ECE4EF;
+}
+
+.title p {
+    font-size: .825rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: #D8CEDE;
+}
+
+.film-detail {
+    padding: 3.75rem 12.375rem 0 2.5rem;
+}
+
+.film-detail span {
+    font-size: .825rem;
+    font-weight: 400;
+    color: #9C83A7;
+}
+
+.film-detail p {
+    font-size: .825rem;
+    font-weight: 700;
+    color: #D8CEDE;
+}
+
+.species-detail {
+    padding: 1rem 0 0 2.5rem;
+}
+
+.species-detail span {
+    font-size: .825rem;
+    font-weight: 400;
+    color: #9C83A7;
+}
+
+.species-detail p {
+    font-size: .825rem;
+    font-weight: 700;
+    color: #D8CEDE;
+}
+
+.height-detail {
+    padding: 1rem 0 0 2.5rem;
+}
+
+.height-detail span {
+    font-size: .825rem;
+    font-weight: 400;
+    color: #9C83A7;
+}
+
+.height-detail p {
+    font-size: .825rem;
+    font-weight: 700;
+    color: #D8CEDE;
+}
+
+.locality-detail {
+    padding: 1rem 0 0 2.5rem;
+}
+
+.locality-detail span {
+    font-size: .825rem;
+    font-weight: 400;
+    color: #9C83A7;
+}
+
+.locality-detail p {
+    font-size: .825rem;
+    font-weight: 700;
+    color: #D8CEDE;
+}
+
+.weapons-detail {
+    padding: 1rem 15.375rem 0 2.5rem;
+}
+
+.weapons-detail span {
+    font-size: .825rem;
+    font-weight: 400;
+    color: #9C83A7;
+}
+
+.weapons-detail p {
+    font-size: .825rem;
+    font-weight: 700;
+    color: #D8CEDE;
+}
+
+.character-image {
+    /* width: 355px;
+    height: 465px; */
+    position: absolute;
+    right:0;
+    bottom:0;
+}

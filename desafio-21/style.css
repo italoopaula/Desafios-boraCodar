@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #09090B;
+    color: #FFFFFF;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    width: 428px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    overflow: auto;
+
+    background-color: #18181B;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #E4E4E7;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-bottom: 1px solid #3F3F46;
+
+    padding: 1.5rem 1rem 1.5rem 2rem;
+}
+
+.header strong {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.header button {
+    border: none;
+    background-color: transparent;
+}
+
+.header button:hover {
+    cursor: pointer;
+}
+
+.products {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #9E9EAE;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.products::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+.products::-webkit-scrollbar-track {
+    background-color: #2C2C31;
+  }
+  
+  .products::-webkit-scrollbar-thumb {
+    background-color: #9E9EAE;
+    border-radius: 4px;
+  }
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: #E4E4E7;
+}
+
+.product p {
+    overflow: hidden;
+    line-height: 1.5rem;
+    max-height: 3em;
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .8rem;
+}
+
+.bottom-content button {
+    border: 1.5px solid #3F3F46;
+    border-radius: .5rem;
+    background-color: transparent;
+
+    padding: .6rem .7rem;
+}
+
+.bottom-content button:last-child {
+    border: 1.5px solid #A855F7;
+    background-image: url(./assets/plus-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.bottom-content button:last-child:hover {
+    background-color: #A855F7;
+    transition: ease .5s;
+    background-image: url(./assets/plus-icon-white.svg);
+}
+
+
+.bottom-content button:hover {
+    cursor: pointer;
+    border: 1.5px solid #A855F7;
+    transition: ease .5s;
+}
+
+#value {
+    width: 1rem;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
+    padding: 2rem;
+    border-top: 1px solid #3F3F46;
+    background-color: #18181B;
+    z-index: 1;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.25rem;
+}
+
+.total p {
+    color: #E4E4E7;
+    font-weight: 500;
+}
+
+.coupon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 0 2rem 0;
+    gap: .5rem;
+    font-size: 1rem;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.coupon input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    color: #A855F7;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    border-bottom: 1.5px solid #A855F7;
+}
+
+.footer button {
+    background-color: #A855F7;
+    border: none;
+    border-radius: .5rem;
+    padding: 1.25rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.footer button:hover {
+    cursor: pointer;
+    background-color: #BC76FF;
+    transition: ease 1s;
+}

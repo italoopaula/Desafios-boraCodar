@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>Desafio 23</title>
+</head>
+<body>
+
+    <div id="step-one">
+        <header>
+            <div class="step-contact">
+                <div class="step-select">
+                    <img src="./assets/step-select-icon.svg" alt="">
+                    <p>Contato</p>
+                </div>
+                <i class="ph ph-caret-right"></i>
+            </div>
+                
+            <div class="step-company">
+                <div class="step-disable">
+                    <img src="./assets/step-disable-icon.svg" alt="">
+                    <p>Empresa</p>
+                </div>
+                <i class="ph ph-caret-right"></i>
+            </div>
+                
+            <div class="step-project">
+                <div class="step-disable">
+                    <img src="./assets/step-disable-project-icon.svg" alt="">
+                    <p>Projeto</p>
+                </div>
+            </div>
+        </header>
+
+        <form name="contact" action="">
+            <div class="field">
+                <label for="iput-name">Nome</label>
+                <input type="text" id="iput-name" placeholder="Como prefere ser chamado">
+            </div>
+
+            <div class="field">
+                <label for="input-phone">Telefone</label>
+                <input type="tel" id="input-phone" placeholder="Digite seu número de WhatsApp">
+            </div>
+                
+            <div class="field">
+                <label for="input-email">E-mail</label>
+                <input type="email" id="input-email" placeholder="Digite seu e-mail">
+            </div>
+
+            <footer>
+                <div class="back-button" style="visibility: hidden;">
+                    <input type="submit" value="voltar">
+                </div>
+                <div class="continue-button">
+                    <input type="submit" value="continuar">
+                </div>
+            </footer>
+        </form> 
+    </div>
+
+    <div id="step-two">
+        <header>
+            <div class="step-contact">
+                <div class="step-active">
+                    <img src="./assets/step-active-icon.svg" alt="">
+                    <p>Contato</p>
+                </div>
+                <i class="ph ph-caret-right"></i>
+            </div>
+                
+            <div class="step-company">
+                <div class="step-select">
+                    <img src="./assets/step-select-icon-2.svg" alt="">
+                    <p>Empresa</p>
+                </div>
+                <i class="ph ph-caret-right"></i>
+            </div>
+                
+            <div class="step-project">
+                <div class="step-disable">
+                    <img src="./assets/step-disable-project-icon.svg" alt="">
+                    <p>Projeto</p>
+                </div>
+            </div>
+        </header>
+
+        <form name="contact" action="">
+            <div class="field">
+                <label for="iput-company-name">Nome da empresa</label>
+                <input type="text" id="iput-company-name" placeholder="Qual é o nome da empresa">
+            </div>
+
+            <div class="field">
+                <label for="input-number-employees">Número de funcionários</label>
+                <input type="tel" id="input-number-employees" placeholder="Digite o número de colaboradores">
+            </div>
+                
+            <div class="field">
+                <label for="text-area-company">Sobre seu negócio</label>
+                <textarea name="" id="text-area-company"  placeholder="Fale um pouco sobre seu negócio"></textarea>
+            </div>
+
+            <footer>
+                <div class="back-button">
+                    <input type="submit" value="voltar">
+                </div>
+                <div class="continue-button">
+                    <input type="submit" value="continuar">
+                </div>
+            </footer>
+        </form> 
+    </div>
+
+    <div id="step-three">
+        <header>
+            <div class="step-contact">
+                <div class="step-active">
+                    <img src="./assets/step-active-icon.svg" alt="">
+                    <p>Contato</p>
+                </div>
+                <i class="ph ph-caret-right"></i>
+            </div>
+                
+            <div class="step-company">
+                <div class="step-active">
+                    <img src="./assets/step-active-icon.svg" alt="">
+                    <p>Empresa</p>
+                </div>
+                <i class="ph ph-caret-right"></i>
+            </div>
+                
+            <div class="step-project">
+                <div class="step-select">
+                    <img src="./assets/step-select-icon-3.svg" alt="">
+                    <p>Projeto</p>
+                </div>
+            </div>
+        </header>
+
+        <form name="contact" action="">
+            <div class="field">
+                <label for="text-area-company">Objetivos do projeto</label>
+                <textarea name="" id="text-area-company"  placeholder="Descreva quais os objetivos desse projeto"></textarea>
+            </div>
+
+            <footer>
+                <div class="back-button">
+                    <input type="submit" value="voltar">
+                </div>
+                <div class="continue-button">
+                    <input type="submit" value="enviar proposta">
+                </div>
+            </footer>
+        </form> 
+    </div>
+
+    <div id="finalized">
+        <h1>Proposta enviada com sucesso!</h1>
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
