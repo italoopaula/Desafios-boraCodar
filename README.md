@@ -22,6 +22,7 @@ Lista de desafios já realizados 👇🏽
 - [Desafio-19](https://italoopaula.github.io/Desafios-boraCodar/desafio-19/#)
 - [Desafio-21](https://italoopaula.github.io/Desafios-boraCodar/desafio-21/#)
 - [Desafio-22](https://italoopaula.github.io/Desafios-boraCodar/desafio-22/#)
+- [Desafio-23](https://italoopaula.github.io/Desafios-boraCodar/desafio-23/#)
 
 
 ## 🔖 #boraCodar
